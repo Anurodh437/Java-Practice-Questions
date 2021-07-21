@@ -5,7 +5,7 @@ public class Validparantheses {
         System.out.println(isValid("([{])"));
     }
     public static boolean isValid(String s){
-        Stack<Character> characterStack = new Stack(); //O(n)
+        Stack<Character> characterStack = new Stack<>(); //O(n)
         for(char c :  s.toCharArray()){ //O(n)
             if(c=='(' || c=='[' ||  c=='{'){
                 characterStack.add(c);

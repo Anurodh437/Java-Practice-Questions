@@ -12,5 +12,6 @@ public class Solubility {
             int result = arr[1] + ((100 - arr[0])*arr[2]);
             System.out.println(result*10);
         }
+        scanner.close();
     }
 }

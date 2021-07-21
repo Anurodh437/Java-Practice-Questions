@@ -10,5 +10,6 @@ public class SecondLargest {
         }
         Arrays.sort(ints);
         System.out.println(ints[1]);
+        scanner.close();
     }
 }

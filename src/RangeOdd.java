@@ -13,5 +13,6 @@ public class RangeOdd {
                 System.out.print(" ");
             }
         }
+        scan.close();
     }
 }

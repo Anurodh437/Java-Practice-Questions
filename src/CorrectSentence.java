@@ -46,5 +46,6 @@ public class CorrectSentence {
             else
                 System.out.println("NO");
         }
+        scan.close();
     }
 }

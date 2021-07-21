@@ -16,5 +16,6 @@ public class FactorsFinding {
             System.out.print(integer);
             System.out.print(" ");
         }
+        scanner.close();
     }
 }

@@ -15,5 +15,6 @@ public class Golf {
             }
             else System.out.println("NO");
         }
+        scanner.close();
     }
 }

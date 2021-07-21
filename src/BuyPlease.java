@@ -8,5 +8,6 @@ public class BuyPlease {
             arr[i] = scan.nextInt();
         }
         System.out.println(arr[0]*arr[2] + arr[1]*arr[3]);
+        scan.close();
     }
 }

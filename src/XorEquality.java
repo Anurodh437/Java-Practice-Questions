@@ -22,6 +22,7 @@ public class XorEquality {
                 temp1 = (temp1 * temp1) % modulo;
             }
             System.out.println(res);
+            scanner.close();
         }
     }
 }

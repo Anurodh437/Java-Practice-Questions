@@ -11,5 +11,6 @@ public class LazyChef {
             }
             System.out.println(Math.min(arr[0]*arr[1],arr[0]+arr[2]));
         }
+        scan.close();
     }
 }
